@@ -65,7 +65,7 @@
 &mt LGUI TAB   &mt LGUI Q  &mt LGUI W  &mt LGUI E    &mt LGUI R    &mt LGUI T                      &mt LGUI Y  &mt LGUI U    &mt LGUI I     &mt LGUI O   &mt LGUI P    &trans
 &trans &mt LGUI A  &mt LGUI S  &mt LGUI D    &mt LGUI F    &mt LGUI G                      &mt LGUI H  &mt LGUI J    &mt LGUI K     &mt LGUI L  &trans &trans
 &trans &mt LGUI Z  &mt LGUI X  &mt LGUI C    &mt LGUI V    &mt LGUI B  &mt LGUI LBKT   &mt LGUI RBKT &mt LGUI N  &mt LGUI M    &mt LGUI COMMA &mt LGUI DOT &trans &trans
-                        &trans &trans &tran &trans &trans &mo 2  &trans &trans
+                        &trans &trans &trans &trans &trans &mo 2  &trans &trans
       >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
