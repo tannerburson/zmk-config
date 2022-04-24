@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/outputs.h>
 
 &mt {
   tapping-term-ms = <200>;
@@ -47,7 +48,7 @@
 &kp F1     &kp F2           &kp F3            &kp F4            &kp F5       &kp F6                       &kp F7    &kp F8    &kp F9          &kp F10   &kp F11   &kp F12
 &kp GRAVE  &kp EXCL         &kp AT            &kp HASH          &kp DOLLAR   &kp PRCNT                    &kp LEFT  &kp DOWN  &kp UP          &kp RIGHT &trans    &kp PG_UP
 &trans     &ext_power EP_ON &ext_power EP_OFF &ext_power EP_TOG &trans       &trans    &trans   &trans    &trans    &kp MINUS &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PG_DN
-                                              &trans            &trans       &trans    &trans   &trans    &trans    &trans    &trans
+                                              &trans            &trans       &trans    &trans   &trans    &trans    &trans    &out OUT_TOG
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -61,10 +62,10 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
       bindings = <
-&mt LGUI GRAVE   &mt LGUI N1 &mt LGUI N2 &mt LGUI N3   &mt LGUI N4   &mt LGUI N5                     &mt LGUI N6 &mt LGUI N7   &mt LGUI N8    &mt LGUI N9  &mt LGUI N0   &mt LGUI BSPC
-&mt LGUI TAB   &mt LGUI Q  &mt LGUI W  &mt LGUI E    &mt LGUI R    &mt LGUI T                      &mt LGUI Y  &mt LGUI U    &mt LGUI I     &mt LGUI O   &mt LGUI P    &trans
-&trans &mt LGUI A  &mt LGUI S  &mt LGUI D    &mt LGUI F    &mt LGUI G                      &mt LGUI H  &mt LGUI J    &mt LGUI K     &mt LGUI L  &trans &trans
-&trans &mt LGUI Z  &mt LGUI X  &mt LGUI C    &mt LGUI V    &mt LGUI B  &mt LGUI LBKT   &mt LGUI RBKT &mt LGUI N  &mt LGUI M    &mt LGUI COMMA &mt LGUI DOT &trans &trans
+&kp LG(GRAVE)   &kp LG(N1) &kp LG(N2) &kp LG(N3)   &kp LG(N4)   &kp LG(N5)                     &kp LG(N6) &kp LG(N7)   &kp LG(N8)    &kp LG(N9)  &kp LG(N0)   &kp LG(BSPC)
+&kp LG(TAB)   &kp LG(Q)  &kp LG(W)  &kp LG(E)    &kp LG(R)    &kp LG(T)                      &kp LG(Y)  &kp LG(U)    &kp LG(I)     &kp LG(O)   &kp LG(P)    &trans
+&trans &kp LG(A)  &kp LG(S)  &kp LG(D)    &kp LG(F)    &kp LG(G)                      &kp LG(H)  &kp LG(J)    &kp LG(K)     &kp LG(L)  &trans &trans
+&trans &kp LG(Z)  &kp LG(X)  &kp LG(C)    &kp LG(V)    &kp LG(B)  &kp LG(LBKT)   &kp LG(RBKT) &kp LG(N)  &kp LG(M)    &kp LG(COMMA) &kp LG(DOT) &trans &trans
                         &trans &trans &trans &trans &trans &mo 2  &trans &trans
       >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
