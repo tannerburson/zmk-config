@@ -61,10 +61,10 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
       bindings = <
-&mt LGUI GRAVE   &mt LGUI N1 &mt LGUI N2 &mt LGUI N3   &mt LGUI N4   &mt LGUI N5                     &mt LGUI N6 &mt LGUI N7   &mt LGUI N8    &mt LGUI N9  &mt LGUI N0   &mt LGUI BSPC
-&mt LGUI TAB   &mt LGUI Q  &mt LGUI W  &mt LGUI E    &mt LGUI R    &mt LGUI T                      &mt LGUI Y  &mt LGUI U    &mt LGUI I     &mt LGUI O   &mt LGUI P    &trans
-&trans &mt LGUI A  &mt LGUI S  &mt LGUI D    &mt LGUI F    &mt LGUI G                      &mt LGUI H  &mt LGUI J    &mt LGUI K     &mt LGUI L  &trans &trans
-&trans &mt LGUI Z  &mt LGUI X  &mt LGUI C    &mt LGUI V    &mt LGUI B  &mt LGUI LBKT   &mt LGUI RBKT &mt LGUI N  &mt LGUI M    &mt LGUI COMMA &mt LGUI DOT &trans &trans
+&kp LGUI(GRAVE)   &kp LGUI(N1) &kp LGUI(N2) &kp LGUI(N3)   &kp LGUI(N4)   &kp LGUI(N5)                     &kp LGUI(N6) &kp LGUI(N7)   &kp LGUI(N8)    &kp LGUI(N9)  &kp LGUI(N0)   &kp LGUI(BSPC)
+&kp LGUI(TAB)   &kp LGUI(Q)  &kp LGUI(W)  &kp LGUI(E)    &kp LGUI(R)    &kp LGUI(T)                      &kp LGUI(Y)  &kp LGUI(U)    &kp LGUI(I)     &kp LGUI(O)   &kp LGUI(P)    &trans
+&trans &kp LGUI(A)  &kp LGUI(S)  &kp LGUI(D)    &kp LGUI(F)    &kp LGUI(G)                      &kp LGUI(H)  &kp LGUI(J)    &kp LGUI(K)     &kp LGUI(L)  &trans &trans
+&trans &kp LGUI(Z)  &kp LGUI(X)  &kp LGUI(C)    &kp LGUI(V)    &kp LGUI(B)  &kp LGUI(LBKT)   &kp LGUI(RBKT) &kp LGUI(N)  &kp LGUI(M)    &kp LGUI(COMMA) &kp LGUI(DOT) &trans &trans
                         &trans &trans &trans &trans &trans &mo 2  &trans &trans
       >;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
